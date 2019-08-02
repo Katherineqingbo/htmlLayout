@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    html,body{
+      width: 100%;
+      height: 100%;
+    }
+    #contentWrap{
+      width: 90%;
+      height: 100%;
+      background:#000;
+      margin: 0 5%;
+    }
+    #aside{
+      float: left;
+      width: 200px;
+      height: 100%;
+      background-color: red;
+    }
+    #content{
+      height: 100%;
+      margin-left: 200px;
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div id="contentWrap">
+      <div id="aside">
+        利用 float 配合 margin 实现
+      </div>
+      <div id="content">
+        <div class="inner">
+          利用 float 配合 margin 实现
+        </div>
+      </div>
+  </div>
+</body>
+</html>
